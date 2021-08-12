@@ -57,22 +57,22 @@ class GRDBRK_Vert:
         self.co = co
     
     def __gt__(self, other : int) -> bool:
-        return True if self.index > other else False
+        return self.index > other
     
     def __ge__(self, other : int) -> bool:
-        return True if self.index >= other else False
+        return self.index >= other
     
     def __lt__(self, other : int) -> bool:
-        return True if self.index < other else False
+        return self.index < other
     
     def __le__(self, other : int) -> bool:
-        return True if self.index <= other else False
+        return self.index <= other
     
     def __eq__(self, other : int) -> bool:
-        return True if self.index == other else False
+        return self.index == other
     
     def __ne__(self, other : int) -> bool:
-        return True if self.index != other else False
+        return self.index != other
     
     def __hash__(self):
         return hash(str(self))
@@ -120,22 +120,22 @@ class GRDBRK_Face:
             self.fix_co(v, i)
     
     def __gt__(self, other : int) -> bool:
-        return True if self.index > other else False
+        return self.index > other
     
     def __ge__(self, other : int) -> bool:
-        return True if self.index >= other else False
+        return self.index >= other
     
     def __lt__(self, other : int) -> bool:
-        return True if self.index < other else False
+        return self.index < other
     
     def __le__(self, other : int) -> bool:
-        return True if self.index <= other else False
+        return self.index <= other
     
     def __eq__(self, other : int) -> bool:
-        return True if self.index == other else False
+        return self.index == other
     
     def __ne__(self, other : int) -> bool:
-        return True if self.index != other else False
+        return self.index != other
 
 class GRDBRK_Pydata:
     '''Main Grid Break Internal Mesh Operations: Create, Setup, etc.'''
