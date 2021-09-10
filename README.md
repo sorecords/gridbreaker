@@ -2,7 +2,8 @@
 Grid Breaker add-on for Blender 2.93 for generating grid-like meshes with controllable randomizied parameters
 
 # WARNING
-This is PRE-ALPHA version of the add-on, USE IT AT YOUR OWN RISK! The author of this program assumes no responsibility for any issues caused by the use of this add-on, in any way. It hasn't been tested much, it may currently work pretty slow and it may be strongly modified in the future.
+This is readme for the PRE-ALPHA version of the add-on. To be updated soon.
+USE IT AT YOUR OWN RISK! The author of this program assumes no responsibility for any issues caused by the use of this add-on, in any way. It hasn't been tested much, it may currently work pretty slow and it may be strongly modified in the future.
 
 # INSTALL
 * download zip-file (don't unpack)
